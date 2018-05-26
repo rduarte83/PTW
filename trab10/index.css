@@ -1,0 +1,50 @@
+.main {
+	border: 2px solid grey;
+	margin: 30px;
+	padding: 15px;
+}
+
+#date,#name {
+	padding: 5px 0;
+}
+
+h1 {
+	font-family: verdana;
+}
+
+.header {
+	padding-bottom: 20px;
+}
+
+
+#addB,#editB {
+	display: inline-block;
+	background-color: green;
+	color: white;
+	padding: 0px 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+.remB {
+	display: inline-block;
+	float: right;
+	background-color: red;
+	color: white;
+	padding: 0px 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+.item {
+	padding: 5px 5px;
+	color: orange;
+	overflow: hidden;
+}
+
+.itemdesc {
+	display: inline-block;		
+	float: left;
+}

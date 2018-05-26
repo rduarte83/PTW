@@ -1,0 +1,56 @@
+#main{
+    width: 650px;
+}
+
+
+#form{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#utilizador {
+    width: 145px;
+}
+
+#password {
+    width: 150px;
+}
+
+#idade{
+   width: 50px; 
+}
+
+#nome{
+    width: 300px;
+}
+
+#categoria{
+    width: 180px;
+}
+
+
+#resultado {
+    float: left;
+}
+
+#buttons{
+    padding:5px;
+    padding-right: 40px;
+    float:right;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: darkkhaki;
+    color: white;
+}
+
+#lista{
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 600px;
+    height: 300px;
+    padding-left: 10px;
+}
+

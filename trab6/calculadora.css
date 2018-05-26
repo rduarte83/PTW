@@ -1,0 +1,40 @@
+.main {
+    text-align: center;
+}
+
+.inner {
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid grey;
+}
+
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.item:hover{
+    background-color: grey;
+}
+
+h1 {
+    color: red;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: center;
+}

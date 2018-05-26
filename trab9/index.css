@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: dimgrey;
+	text-align: center;
+	
+}
+
+.main {
+	background-color: white;
+	display: inline-block;
+	padding: 10px;
+	width: 700px;
+	border-radius: 20px;
+	position: relative;
+}
+
+/* Style the header */
+.header {
+  	border-radius: 20px;
+	grid-area: header;
+  	background-color: darkred;
+	color: white;
+  	text-align: right;
+  	font-size: 40px;
+  	padding: 10px;
+	font-family: tahoma;
+   
+}
+
+/* The grid container */
+.grid-container {
+	display: grid;
+  	grid-template-areas: 
+  	'header header header header header header' 
+  	'left left middle middle right right';
+  	/* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+	padding: 10px;
+	padding-top: 50px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+.inner-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.inner-item {
+	height: 40px;
+	padding: 5px;
+	color: dimgrey;
+	border: 1px solid grey;
+  	font-size: 24px;
+  	text-align: center;
+}
+
+.inner-item:hover {
+    background-color: palevioletred;
+}
+
+.guess {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	font-size: 36px;
+	letter-spacing: 5px;
+}
+
+#starter {
+    opacity: 0.5;
+    position: relative;
+}
+
+.error {
+    position: absolute;
+    left: 50px;
+    bottom: 25px;
+}

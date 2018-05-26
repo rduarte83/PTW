@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset=utf-8>
+        <title>Reserva de Viagem</title>
+        <style>
+            input
+            {
+                margin: 5px 0;
+            }
+
+
+            input [type="text","email","tel","time","date","number","checkbox"] {
+                border-style: inset; <!-- p evitar mudar o estilo dos botoes -->
+
+            }
+
+            textarea {
+                border-style: inset;
+                overflow: scroll;
+                resize: none;
+            }
+
+            form {
+                margin-left: 30px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Reserva de Viagem</h1>
+
+        <form>
+            <p> Primeiro Nome: <input type="text" name="primnome" size="8" required></p>
+            <p>Último Nome: <input type="text" name="ultmnome" size="8" required></p> 
+            <p>Email: <input type="email" name="email" size="20" required></p>
+            <p>Telefone: <input type="tel" name="tel" size="10" maxlength="9" required></p>
+            <p>Data de partida: <input type="date" name="data" value="" size="10" required></p>
+            <p>
+                Hora de partida: <input type="time" name="hora" size="10" required>
+            </p>
+            <p>Número de viajantes: <input type="number" name="numviaj" size="5" min="1" max="10" required></p>
+            <p>
+                Quais os percursos que mais lhe interessam?<br><br>
+                <textarea name="percursos" id="1" cols="50" rows="10" required></textarea>
+            </p>
+            <p>Qual a melhor forma de o contactar:<br><br>
+                <input type="checkbox" name="cont1"> Telefone
+                <input type="checkbox" name="cont2"> Email
+                <input type="checkbox" name="cont3"> Outra
+            </p>
+            <p>Se escolheu telefone, qual o melhor período do dia para o contactar:<br><br>
+                <input type="radio" name=opttel checked> 8-11 am
+                <input type="radio" name=opttel> 12-4 pm
+                <input type="radio" name=opttel> 6-10 pm
+            </p>
+            <p>
+                Observações: (opcional)<br><br>
+                <textarea name="percursos" id="2" cols="50" rows="10"></textarea>
+            </p>
+            <input type="submit" value="Submeter" accesskey="s">
+            <input type="reset" value="Apagar">
+        </form>
+    </body>
+
+</html>

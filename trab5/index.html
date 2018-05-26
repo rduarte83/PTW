@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset=utf-8>
+        <title>CMAV</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                font-family: Arial;
+            }
+
+            body {
+                width: 750px;
+                border-color: white;
+                border-style: solid;
+                border-width: thin;
+                background-color: darkgrey;
+                margin: auto;
+                text-align: center;
+                
+            }
+
+            .menu {
+                background-color: brown;
+                margin: 0;
+                padding: 10px;
+                overflow: hidden;
+            }
+
+            .menu li {
+                display: inline-block;
+                color: white;
+                background-color: brown;
+                margin-left: 15px;
+            }
+
+            .head {
+                display: inline-block;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 5px;
+            }
+
+            .logo {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            h1 {
+                color: brown;
+                margin-left: 20px;
+            }
+
+            a {
+                color: brown;
+            }
+
+            .main {
+                float: left;
+                color: gray;
+                width: 70%;
+                margin-bottom: 30px;
+                margin-left: 30px;
+            }
+
+            .side {
+                width: 25%;
+                border: 1px solid grey;
+                margin-top: 5px;
+                float: right
+            }
+
+            .footer {
+                clear: both;
+                background-color: darkgrey;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                text-align: center;
+
+            }
+
+            .footer li {
+                display: inline-block;
+                margin: auto 50px;
+                padding: 10px;
+                color: white;
+
+            }
+
+            .titside {
+                background-color: darkgrey;
+                color: white;
+                padding: 5px;
+            }
+
+            .listside li {
+                list-style: url(seta.gif);
+                color: brown;
+            }
+            .divbody {
+                text-align: left;
+                background-color: white;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="divbody">
+            <div style="position: relative">
+                <img src="cabecalho.jpg" class="head" alt="cabeçalho">
+                <div class="logo"><img src="logo.gif" alt="logo"></div>
+            </div>
+            <ul class="menu">
+                <li>Home</li>
+                <li>|</li>
+                <li>Página 1</li>
+                <li>|</li>
+                <li>Página 2</li>
+                <li>|</li>
+                <li>Página 3</li>
+                <li style="float: right"> Pesquisa
+                    <form style="float: right; margin-left: 10px">
+                        <input type="text" id="serch" name="text">
+                    </form>
+                </li>
+            </ul>
+
+            <div class="main">
+                <h1>Título da pagina</h1>
+                Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página <a href="link.link">exemplo de um link</a> Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página Texto da página
+            </div>
+            <div class="side">
+                <div class="titside">Outras informações</div>
+                <ul class=listside>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+            <ul class="footer">
+                <li>Home</li>
+                <li>Mapa do Site</li>
+                <li>Contactos</li>
+            </ul>
+        </div>
+    </body>
+
+</html>

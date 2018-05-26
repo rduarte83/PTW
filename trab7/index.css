@@ -1,0 +1,79 @@
+h1 {
+    color: blue;
+    font-size: 28px;
+
+}
+
+.main {
+    background-image: url(imagens/worldmap.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 521px;
+    height: 370px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#txt {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#conv {
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-image: url(imagens/bg_button.png);
+}
+
+#conv:hover {
+    background-image: url(imagens/bg_button_hover.png);
+}
+
+#globeL {
+    float: left;
+    margin-left: 0 10px;
+}
+
+#globeR {
+    float: right;
+    margin: 0 10px;
+}
+
+.out {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.out>div {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.grid-container > div {
+    background-color: white;
+    color: darkslategrey;
+    padding: 2px;
+    font-size: 16px;
+    text-align: center;
+}
+.grid-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    display: grid;
+    width: 400px;    
+    grid-template-columns: auto auto;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid none;
+}
+
+

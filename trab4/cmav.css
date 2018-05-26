@@ -1,0 +1,81 @@
+body {
+    background-color: lightyellow;
+    background-image: url(albergaria.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+a:link, a:active, a:visited, a:hover {
+    color: brown;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    text-indent: 30px;
+    line-height: 2;
+    text-align: justify;
+    background-color: brown;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    display: inline;
+}
+
+li {
+    margin-right: 30px;
+}
+
+.seta {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+table,
+th,
+td {
+    border-color: red;
+    border-style: solid;
+    border-width: thin;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: auto;
+}
+
+th {
+    color: white;
+    background-color: grey;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
